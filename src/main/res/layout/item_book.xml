@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.jsydq.view.BookView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/book"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <ImageView
+        android:id="@+id/iv_book_cover"
+        android:layout_width="90dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="15dp"
+        android:textColor="#000"
+        android:layout_below="@id/iv_book_cover"
+        android:text="网游之灵魂守卫"
+        android:id="@+id/tv_title"
+        android:textSize="10sp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="15dp"
+        android:textColor="#000"
+        android:layout_below="@id/tv_title"
+        android:text="雷童的仰望"
+        android:id="@+id/tv_author"
+        android:textSize="10sp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+</com.example.jsydq.view.BookView>
